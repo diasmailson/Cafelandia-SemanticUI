@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="utf-8">
+  <title>Formulário - semantic UI</title>
+
+</head>
+<body>
+  <header>
+    <div id="menu" class="ui stackable green primary menu">
+      <a class="item active">Home</a>
+      <a class="item" href="quem-somos.html">Quem Somos</a>
+      <a class="item" href="#">Contato</a>
+      <div class="right menu">
+        <div class="item">
+          <div class="ui icon input">
+            <input type="text" placeholder="Buscar...">
+            <i class="search link icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui stackable text">
+      <h2 align="center">Cafelândia</h2>
+    </div>
+  </header>
+  <!-- utilizei o grid para alocar corretamente o conteudo centralizado-->
+  <div class="form">
+    <div class="ui two columns divided vertically grid container">
+      <div class="ui form large six wide column aligned center grid">
+        <h2>Fale Conosco</h2>
+        <p>*Preencha todos os campos para que possamos te dar um feedback mais assertivo.</p><br>
+
+        <div class="field">
+          <div class="field">
+            <label>Nome Completo</label>
+            <input placeholder="Nome Completo" type="text">
+          </div>
+
+          <div class="field">
+            <label>Telefone</label>
+            <input type="tel" placeholder="(DDD)+Telefone" type="text">
+          </div>
+
+          <div class="field">
+            <label>Email</label>
+            <input type="email" placeholder="seuemail@email.com">
+          </div>
+          <!--Dropdown-->
+          <div class="field">
+            <label>Assunto</label>
+            <select name="skills" class="ui fluid search dropdown">
+              <option value="">Selecione o assunto</option>
+              <option value="angular">Compra pela internet</option>
+              <option value="css">Produto</option>
+              <option value="design">Cartão Presente</option>
+              <option value="ember">Institucional</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Assunto</label>
+            <select name="skills" class="ui fluid search dropdown">
+              <option value="">Selecione o assunto</option>
+              <option value="angular">Elogio</option>
+              <option value="css">Informação</option>
+              <option value="design">Reclamação</option>
+              <option value="ember">Solicitação</option>
+              <option value="ember">Sugestão</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Digite sua mensagem</label>
+            <textarea placeholder="Clique aqui para começar a escrever :)"></textarea>
+          </div>
+        </div>
+        <button class="ui right floated button">Enviar</button>
+      </div>
+
+      <div class="fl">
+        <div class="seven wide column ui align center">
+          <div class="image">
+            <img align="centers" src="image/atend.png" alt="ilustração de uma atendente">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>

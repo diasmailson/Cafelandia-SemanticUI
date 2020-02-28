@@ -1,0 +1,131 @@
+
+*{
+  box-sizing: border-box;
+}
+
+h1, p{
+  text-align: center;
+}
+
+
+.produtos h2{
+  text-align: center;
+  color: gray;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.produtos p{
+  font-size: 14px;
+}
+
+.logo h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#menu{
+  margin-bottom: 10px;
+}
+/*Cor do Paragrafo na classe column #C70039 #691316*/
+.column p {
+  color: gray;
+}
+
+.hero1{
+  align-items: center;
+  text-align: center;
+  background-color: #6f4e37;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero1 p{
+  font-size: 50px;
+  color: #f5efeb;
+  padding: 20px 2px;
+}
+
+.hero2{
+  align-items: center;
+  text-align: center;
+  background-color: #6f4e37;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero2 p{
+  font-size: 50px;
+  color: #f5efeb;
+  padding: 20px 2px;
+}
+
+
+.hero logoCoffeeShop {
+  width: 50px;
+}
+
+.post1 {
+  font-family: 'Nunito', sans-serif;
+  align-items: center;
+  text-align: center;
+  font-size: 19px;
+  color: #483224;
+}
+
+.depoimentos{
+  padding-top: 20px;
+  align-items: center;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #e2d0c4;
+}
+
+.depoimentos p{
+  color: black;
+}
+.dep-cont p{
+  color: #f5efeb;
+}
+
+#depoiment{
+  font-family: 'Nunito', sans-serif;
+  padding-top: 20px;
+}
+
+#depoiment p{
+  font-family: 'Nunito', sans-serif;
+}
+/*section.cards{
+grid-template-columns: 1fr 1fr 1fr;
+}*/
+.quemSomos p{
+  font-family: 'Rubik', sans-serif;
+  font-size: 17px;
+}
+
+footer{
+  align-items: center;
+  text-align: center;
+  color: #000000cc;
+  border-color: #f9f9f9;
+  font-family: 'Nunito', sans-serif;
+  padding: 16px;
+  margin-top: 110px;
+  width: 100%;
+}
+
+/*Page: FaleConosco*/
+.form{
+  padding:0 90px 0 150px;
+}
+
+.fl {
+  align-items: stretch;
+  padding-top: 150px;
+}
