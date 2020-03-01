@@ -122,10 +122,13 @@ footer{
 
 /*Page: FaleConosco*/
 .form{
-  padding:0 90px 0 150px;
+  padding:0 25px 0 25px;
+  align-items: center;
 }
 
 .fl {
-  align-items: stretch;
+  align-items: center;
   padding-top: 150px;
+  margin-left: 15px;
+  align-content: center;
 }
